@@ -1,0 +1,395 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shine\\Desktop\\TeamsMaker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\algorithmes\\realisations\\algorithmetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\algorithmes\\realisations\\algorithmetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\algorithmes\\realisations\\algorithmegloutoncroissant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\algorithmes\\realisations\\algorithmegloutoncroissant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\algorithmes\\realisations\\equilibreprogressif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\algorithmes\\realisations\\equilibreprogressif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\algorithmes\\outils\\comparepersonnageparniveauprincipaldecroissant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\algorithmes\\outils\\comparepersonnageparniveauprincipaldecroissant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\jeuxtest\\fichiers\\test.jt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\jeuxtest\\fichiers\\test.jt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\jeuxtest\\fichiers\\dixmillesperso.jt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\jeuxtest\\fichiers\\dixmillesperso.jt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\jeuxtest\\fichiers\\centsperso.jt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\jeuxtest\\fichiers\\centsperso.jt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0075CB0-1CB7-4B54-BF5E-1A624FD81159}|TeamsMaker_VM\\TeamsMaker_VM.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_vm\\vuemodeles\\vmecrantestalgo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0075CB0-1CB7-4B54-BF5E-1A624FD81159}|TeamsMaker_VM\\TeamsMaker_VM.csproj|solutionrelative:teamsmaker_vm\\vuemodeles\\vmecrantestalgo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\jeuxtest\\parseurs\\parseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\jeuxtest\\parseurs\\parseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\jeuxtest\\jeutest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\jeuxtest\\jeutest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0075CB0-1CB7-4B54-BF5E-1A624FD81159}|TeamsMaker_VM\\TeamsMaker_VM.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_vm\\vuemodeles\\vmequipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0075CB0-1CB7-4B54-BF5E-1A624FD81159}|TeamsMaker_VM\\TeamsMaker_VM.csproj|solutionrelative:teamsmaker_vm\\vuemodeles\\vmequipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\jeuxtest\\repartition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\jeuxtest\\repartition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\algorithmes\\outils\\comparateurpersonnageparniveauprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\algorithmes\\outils\\comparateurpersonnageparniveauprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\algorithmes\\fabriquealgorithme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\algorithmes\\fabriquealgorithme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\algorithmes\\nomalgorithme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\algorithmes\\nomalgorithme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\personnages\\equipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\personnages\\equipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\algorithmes\\realisations\\gloutond\u00E9croissant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\algorithmes\\realisations\\gloutond\u00E9croissant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7863D8D5-5FAF-4CA3-B3C5-447C4E41975F}|ModeConsoleTP\\ModeConsoleTP.csproj|c:\\users\\shine\\desktop\\teamsmaker\\modeconsoletp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7863D8D5-5FAF-4CA3-B3C5-447C4E41975F}|ModeConsoleTP\\ModeConsoleTP.csproj|solutionrelative:modeconsoletp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\algorithmes\\algorithme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\algorithmes\\algorithme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\problemes\\probleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\problemes\\probleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\jeuxtest\\fichiers\\centperso.jt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\jeuxtest\\fichiers\\centperso.jt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\jeuxtest\\fichiers\\desktop.ini||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\jeuxtest\\fichiers\\desktop.ini||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|c:\\users\\shine\\desktop\\teamsmaker\\teamsmaker_metier\\jeuxtest\\fichiers\\vide.jt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9E3043BE-8222-46B5-B36E-1198B195A6BF}|TeamsMaker_METIER\\TeamsMaker_METIER.csproj|solutionrelative:teamsmaker_metier\\jeuxtest\\fichiers\\vide.jt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EquilibreProgressif.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Realisations\\EquilibreProgressif.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Algorithmes\\Realisations\\EquilibreProgressif.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Realisations\\EquilibreProgressif.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Algorithmes\\Realisations\\EquilibreProgressif.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwEAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T12:48:45.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FabriqueAlgorithme.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\FabriqueAlgorithme.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Algorithmes\\FabriqueAlgorithme.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\FabriqueAlgorithme.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Algorithmes\\FabriqueAlgorithme.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T12:33:53.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NomAlgorithme.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\NomAlgorithme.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Algorithmes\\NomAlgorithme.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\NomAlgorithme.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Algorithmes\\NomAlgorithme.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCQAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T12:32:18.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlgorithmeGloutonCroissant.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Realisations\\AlgorithmeGloutonCroissant.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Algorithmes\\Realisations\\AlgorithmeGloutonCroissant.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Realisations\\AlgorithmeGloutonCroissant.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Algorithmes\\Realisations\\AlgorithmeGloutonCroissant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:46:55.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlgorithmeTest.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Realisations\\AlgorithmeTest.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Algorithmes\\Realisations\\AlgorithmeTest.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Realisations\\AlgorithmeTest.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Algorithmes\\Realisations\\AlgorithmeTest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:47:29.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VMEcranTestAlgo.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_VM\\VueModeles\\VMEcranTestAlgo.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_VM\\VueModeles\\VMEcranTestAlgo.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_VM\\VueModeles\\VMEcranTestAlgo.cs",
+              "RelativeToolTip": "TeamsMaker_VM\\VueModeles\\VMEcranTestAlgo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:59:25.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VMEquipe.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_VM\\VueModeles\\VMEquipe.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_VM\\VueModeles\\VMEquipe.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_VM\\VueModeles\\VMEquipe.cs",
+              "RelativeToolTip": "TeamsMaker_VM\\VueModeles\\VMEquipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:59:22.517Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComparePersonnageParNiveauPrincipalDecroissant.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Outils\\ComparePersonnageParNiveauPrincipalDecroissant.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Algorithmes\\Outils\\ComparePersonnageParNiveauPrincipalDecroissant.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Outils\\ComparePersonnageParNiveauPrincipalDecroissant.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Algorithmes\\Outils\\ComparePersonnageParNiveauPrincipalDecroissant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T12:26:59.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Repartition.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Repartition.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\JeuxTest\\Repartition.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Repartition.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\JeuxTest\\Repartition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:22:15.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\ModeConsoleTP\\Program.cs",
+              "RelativeDocumentMoniker": "ModeConsoleTP\\Program.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\ModeConsoleTP\\Program.cs",
+              "RelativeToolTip": "ModeConsoleTP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:16:56.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ComparateurPersonnageParNiveauPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Outils\\ComparateurPersonnageParNiveauPrincipal.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Algorithmes\\Outils\\ComparateurPersonnageParNiveauPrincipal.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Outils\\ComparateurPersonnageParNiveauPrincipal.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Algorithmes\\Outils\\ComparateurPersonnageParNiveauPrincipal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:03:03.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GloutonD\u00E9croissant.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Realisations\\GloutonD\u00E9croissant.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Algorithmes\\Realisations\\GloutonD\u00E9croissant.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Realisations\\GloutonD\u00E9croissant.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Algorithmes\\Realisations\\GloutonD\u00E9croissant.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:51:48.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Algorithme.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Algorithme.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Algorithmes\\Algorithme.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Algorithmes\\Algorithme.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Algorithmes\\Algorithme.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:47:14.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Probleme.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Problemes\\Probleme.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Problemes\\Probleme.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Problemes\\Probleme.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Problemes\\Probleme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:46:37.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CentsPerso.jt",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\CentsPerso.jt",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\CentsPerso.jt",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\CentsPerso.jt",
+              "RelativeToolTip": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\CentsPerso.jt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-22T14:18:42.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CentPerso.jt",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\CentPerso.jt",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\CentPerso.jt",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\CentPerso.jt",
+              "RelativeToolTip": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\CentPerso.jt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-22T14:11:45.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "desktop.ini",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\desktop.ini",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\desktop.ini",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\desktop.ini",
+              "RelativeToolTip": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\desktop.ini",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002768|",
+              "WhenOpened": "2025-05-22T14:11:39.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DixMillesPerso.jt",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\DixMillesPerso.jt",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\DixMillesPerso.jt",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\DixMillesPerso.jt",
+              "RelativeToolTip": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\DixMillesPerso.jt",
+              "ViewState": "AgIAAIMBAAAAAAAAAAAAAIMBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-22T14:07:51.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Parseur.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Parseurs\\Parseur.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\JeuxTest\\Parseurs\\Parseur.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Parseurs\\Parseur.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\JeuxTest\\Parseurs\\Parseur.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:55:11.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Equipe.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Personnages\\Equipe.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\Personnages\\Equipe.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\Personnages\\Equipe.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\Personnages\\Equipe.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:15:38.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JeuTest.cs",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\JeuTest.cs",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\JeuxTest\\JeuTest.cs",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\JeuTest.cs",
+              "RelativeToolTip": "TeamsMaker_METIER\\JeuxTest\\JeuTest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:15:00.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Vide.jt",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\Vide.jt",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\Vide.jt",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\Vide.jt",
+              "RelativeToolTip": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\Vide.jt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-22T12:14:53.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Test.jt",
+              "DocumentMoniker": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\Test.jt",
+              "RelativeDocumentMoniker": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\Test.jt",
+              "ToolTip": "C:\\Users\\shine\\Desktop\\TeamsMaker\\TeamsMaker_METIER\\JeuxTest\\Fichiers\\Test.jt",
+              "RelativeToolTip": "TeamsMaker_METIER\\JeuxTest\\Fichiers\\Test.jt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-22T11:54:52.39Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
