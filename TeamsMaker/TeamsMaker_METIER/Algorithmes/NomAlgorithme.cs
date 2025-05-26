@@ -14,8 +14,10 @@ namespace TeamsMaker_METIER.Algorithmes
         ALGOTEST,
         GLOUTONCROISSANT,
         GLOUTONDECROISSANT,
-        EQUILIBREPROGRESSIF
-        
+        EQUILIBREPROGRESSIF,
+        NSWAP,
+        NOPT
+
     }
 
     //Question 16
@@ -35,6 +37,8 @@ namespace TeamsMaker_METIER.Algorithmes
                 case NomAlgorithme.GLOUTONCROISSANT: res = "Algorithme Glouton Croissant"; break;
                 case NomAlgorithme.GLOUTONDECROISSANT: res = "Algorithme Glouton Décroissant"; break;
                 case NomAlgorithme.EQUILIBREPROGRESSIF: res = "Algorithme Equilibre progressif"; break;
+                case NomAlgorithme.NSWAP: res = "Algorithme Locale NSWAP"; break;
+                case NomAlgorithme.NOPT: res = "Algorithme Locale NOPT"; break;
             }
         
             return res;

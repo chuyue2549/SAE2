@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TeamsMaker_METIER.JeuxTest;
 using TeamsMaker_METIER.Personnages.Classes;
 using TeamsMaker_METIER.Problemes;
 
@@ -46,6 +47,23 @@ namespace TeamsMaker_METIER.Personnages
         }
 
         /// <summary>
+        /// supprimer un membre à l'équipe
+        /// </summary>
+        /// <param name="personnage">Personnage à ajouter</param>
+        public void RemoveMembre(Personnage personnage)
+        {
+            this.membres.RemoveAll(p => p.Classe == personnage.Classe && p.LvlPrincipal == personnage.LvlPrincipal && p.LvlSecondaire == personnage.LvlSecondaire);
+        }
+
+        ///<summary>
+        ///Vide tous les membres de l'équipe
+        /// </summary>
+        public void Vider()
+        {
+            this.membres.Clear();
+        }
+
+        /// <summary>
         /// Test si l'équipe est valide pour le problème donné
         /// </summary>
         /// <param name="probleme">Le problème</param>
@@ -59,6 +77,7 @@ namespace TeamsMaker_METIER.Personnages
                 case Probleme.ROLEPRINCIPAL: res = this.EstValideRolePrincipalUniquement(); break;
                 case Probleme.ROLESECONDAIRE: res = this.EstValideRolePrincipalEtSecondaire(); break;
             }
+            //System.Diagnostics.Debug.WriteLine($"合法 : {probleme} ,member :{this.membres.Count} is {res}");
             return res;
         }
 
@@ -131,7 +150,7 @@ namespace TeamsMaker_METIER.Personnages
         public double Score(Probleme probleme)
         {
             double res = -1;
-            if(this.EstValide(probleme))
+            if (this.EstValide(probleme))
             {
                 switch (probleme)
                 {
@@ -144,11 +163,14 @@ namespace TeamsMaker_METIER.Personnages
             return res;
         }
 
+
+
         //Score pour le problème simple
         private double Score()
         {
             List<int> niveaux = new List<int>();
             foreach (Personnage personnage in this.Membres) niveaux.Add(personnage.LvlPrincipal);
+            //System.Diagnostics.Debug.WriteLine($"score : {this.Evaluation(niveaux)} avg : {niveaux.Average()}");
             return this.Evaluation(niveaux);
         }
 
@@ -185,6 +207,8 @@ namespace TeamsMaker_METIER.Personnages
         {
             return (niveau.Average() - 50) * (niveau.Average() - 50);
         }
+
+
         #endregion
     }
 }

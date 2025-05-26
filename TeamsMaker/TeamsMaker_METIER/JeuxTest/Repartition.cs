@@ -58,6 +58,7 @@ namespace TeamsMaker_METIER.JeuxTest
                 double res = 0;
                 foreach (Equipe equipe in this.equipes)
                 {
+                    //System.Diagnostics.Debug.WriteLine($"队伍得分 = {equipe.DernierScoreCalcule}, 成员数 = {equipe.Membres.Length}");
                     if (equipe.DernierScoreCalcule == -1) res = -1;
                     else if(res != -1) res += equipe.DernierScoreCalcule;
                 }
@@ -67,12 +68,15 @@ namespace TeamsMaker_METIER.JeuxTest
         }
         #endregion
 
-        #region --- Constructeurs ---
-        /// <summary>
-        /// Constructeur
-        /// </summary>
-        /// <param name="jeuTest">Jeu de test d'origine</param>
-        public Repartition(JeuTest jeuTest)
+
+
+
+#region --- Constructeurs ---
+/// <summary>
+/// Constructeur
+/// </summary>
+/// <param name="jeuTest">Jeu de test d'origine</param>
+public Repartition(JeuTest jeuTest)
         {
             this.jeuTest = jeuTest;
             this.equipes = new List<Equipe>();
@@ -98,6 +102,27 @@ namespace TeamsMaker_METIER.JeuxTest
         {
             foreach (Equipe equipe in this.equipes) equipe.Score(probleme);
         }
+
+        /// <summary>
+        /// Crée une copie indépendante de la répartition (deep copy)
+        /// </summary>
+        public Repartition Cloner()
+        {
+            Repartition clone = new Repartition(this.jeuTest);
+         
+            foreach (Equipe equipe in this.equipes)
+            {
+                Equipe nouvelleEquipe = new Equipe();
+                foreach (Personnage membre in equipe.Membres)
+                {
+                    nouvelleEquipe.AjouterMembre(membre); 
+                }
+                clone.AjouterEquipe(nouvelleEquipe);
+            }
+
+            return clone;
+        }
+
         #endregion
     }
 }

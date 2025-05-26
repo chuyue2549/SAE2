@@ -38,6 +38,10 @@ namespace TeamsMaker_METIER.Algorithmes
                 case NomAlgorithme.GLOUTONDECROISSANT: res = new GloutonDécroissant(); break;
                 // Ajout l'aglorithme glouton équilibre progressif
                 case NomAlgorithme.EQUILIBREPROGRESSIF: res = new EquilibreProgressif(); break;
+                // Ajout l'aglorithme local NSwap
+                case NomAlgorithme.NSWAP: res = new AlgorithmeNSwap(); break;
+                //Ajout l'aglorithme local NOpt
+                case NomAlgorithme.NOPT: res = new AlgorithmeNOpt(); break;
             }
             return res;
         }
