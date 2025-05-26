@@ -58,7 +58,6 @@ namespace TeamsMaker_METIER.JeuxTest
                 double res = 0;
                 foreach (Equipe equipe in this.equipes)
                 {
-                    //System.Diagnostics.Debug.WriteLine($"队伍得分 = {equipe.DernierScoreCalcule}, 成员数 = {equipe.Membres.Length}");
                     if (equipe.DernierScoreCalcule == -1) res = -1;
                     else if(res != -1) res += equipe.DernierScoreCalcule;
                 }

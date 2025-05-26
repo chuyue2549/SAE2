@@ -16,7 +16,7 @@ namespace TeamsMaker_METIER.Algorithmes.Realisations
             Stopwatch stw = new Stopwatch();
             stw.Start();
 
-            // 初始解：按顺序4人组队
+            //initialize ; 4 members in a equipe
             Repartition repartition = new Repartition(jeuTest);
             Personnage[] tab_perso = jeuTest.Personnages;
             int fullTeamCount = tab_perso.Length / 4;
@@ -44,17 +44,20 @@ namespace TeamsMaker_METIER.Algorithmes.Realisations
                 {
                     for (int j = i + 1; j < equipeCount; j++)
                     {
-                        // 提取两个队伍的所有成员
+                        // tous le memebres dans les deux equipe ajoute tous membres dans uniom
                         List<Personnage> union = new List<Personnage>();
                         union.AddRange(equipes[i].Membres);
-                        union.AddRange(equipes[j].Membres); //ajoute tous membres dans uniom
+                        union.AddRange(equipes[j].Membres);
 
-                        // 遍历 C(8,4) 种组合方式（将8个成员分为两个队伍）
-                        foreach (var group1 in GetCombinations(union, 4))
+
+                        foreach (var group1 in GetPersonnageCombinations(union, 4))
                         {
                             List<Personnage> group2 = union.Except(group1).ToList();
 
-                            // 克隆并替换两个队伍
+                            if (group1.Count != 4 || group2.Count != 4)
+                                continue;
+
+                            // coloner et changer
                             Repartition tentative = repartition.Cloner();
                             Equipe t_eq1 = tentative.Equipes[i];
                             Equipe t_eq2 = tentative.Equipes[j];
@@ -75,6 +78,19 @@ namespace TeamsMaker_METIER.Algorithmes.Realisations
                     }
                 }
 
+                List<Personnage> restants = repartition.PersonnagesSansEquipe.ToList();
+
+                while (restants.Count >= 4)
+                {
+                    Equipe equipe = new Equipe();
+                    for (int k = 0; k < 4; k++)
+                    {
+                        equipe.AjouterMembre(restants[0]);
+                        restants.RemoveAt(0);
+                    }
+                    repartition.AjouterEquipe(equipe);
+                }
+
                 if (improved)
                     noImprovementCount = 0;
                 else
@@ -88,26 +104,28 @@ namespace TeamsMaker_METIER.Algorithmes.Realisations
             return repartition;
         }
 
-        // 返回从 list 中选择 n 个元素的所有组合
-        private IEnumerable<List<T>> GetCombinations<T>(List<T> list, int n)
+        private List<List<Personnage>> GetPersonnageCombinations(List<Personnage> list, int n)
         {
-            int count = list.Count;
-            if (n == 0 || n > count)
-                yield break;
+            List<List<Personnage>> result = new List<List<Personnage>>();
+            Generate(new List<Personnage>(), 0);
+            return result;
 
-            int[] indices = Enumerable.Range(0, n).ToArray();
-            while (true)
+            void Generate(List<Personnage> current, int index)
             {
-                yield return indices.Select(index => list[index]).ToList();
+                if (current.Count == n)
+                {
+                    result.Add(new List<Personnage>(current));
+                    return;
+                }
 
-                int i = n - 1;
-                while (i >= 0 && indices[i] == count - n + i)
-                    i--;
+                if (index >= list.Count)
+                    return;
 
-                if (i < 0) yield break;
-                indices[i]++;
-                for (int j = i + 1; j < n; j++)
-                    indices[j] = indices[j - 1] + 1;
+                current.Add(list[index]);
+                Generate(current, index + 1);
+
+                current.RemoveAt(current.Count - 1);
+                Generate(current, index + 1);
             }
         }
     }

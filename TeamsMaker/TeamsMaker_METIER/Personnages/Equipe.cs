@@ -170,7 +170,6 @@ namespace TeamsMaker_METIER.Personnages
         {
             List<int> niveaux = new List<int>();
             foreach (Personnage personnage in this.Membres) niveaux.Add(personnage.LvlPrincipal);
-            //System.Diagnostics.Debug.WriteLine($"score : {this.Evaluation(niveaux)} avg : {niveaux.Average()}");
             return this.Evaluation(niveaux);
         }
 
