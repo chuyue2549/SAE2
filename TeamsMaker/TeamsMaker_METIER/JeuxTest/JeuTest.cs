@@ -38,6 +38,13 @@ namespace TeamsMaker_METIER.JeuxTest
                 this.personnages.Add(new Personnage(randomBar, random.Next(1,100), random.Next(1, 100)));
             }*/
         }
+        ///// <summary>
+        ///// Constructeur par défaut par un list de personnages
+        ///// </summary>
+        //public JeuTest(List<Personnage> personnages)
+        //{
+        //    this.personnages = new List<Personnage>();
+        //}
         #endregion
 
         #region --- Méthodes ---

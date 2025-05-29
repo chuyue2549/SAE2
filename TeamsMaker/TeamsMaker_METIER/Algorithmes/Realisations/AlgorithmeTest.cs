@@ -19,7 +19,8 @@ namespace TeamsMaker_METIER.Algorithmes.Realisations
             for (int i = 0; i < jeuTest.Personnages.Count() / 4; i++)
             {
                 Equipe equipe = new Equipe();
-                for(int j = 4*i;j<4*(i+1);j++) equipe.AjouterMembre(jeuTest.Personnages[j]);
+                for(int j = 4*i;j<4*(i+1);j++) 
+                    equipe.AjouterMembre(jeuTest.Personnages[j]);
                 repartition.AjouterEquipe(equipe);
             }
             return repartition;

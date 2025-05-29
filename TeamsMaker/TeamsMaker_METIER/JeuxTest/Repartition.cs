@@ -67,15 +67,12 @@ namespace TeamsMaker_METIER.JeuxTest
         }
         #endregion
 
-
-
-
-#region --- Constructeurs ---
-/// <summary>
-/// Constructeur
-/// </summary>
-/// <param name="jeuTest">Jeu de test d'origine</param>
-public Repartition(JeuTest jeuTest)
+        #region --- Constructeurs ---
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="jeuTest">Jeu de test d'origine</param>
+        public Repartition(JeuTest jeuTest)
         {
             this.jeuTest = jeuTest;
             this.equipes = new List<Equipe>();
@@ -92,6 +89,15 @@ public Repartition(JeuTest jeuTest)
             this.equipes.Add(equipe);
         }
 
+        /// <summary>
+        /// supprimer une équipe
+        /// </summary>
+        /// <param name="equipe">Equipe à ajouter</param>
+        public void RemoveEquipe(Equipe equipe)
+        {
+            this.equipes.Remove(equipe);
+        }
+
 
         /// <summary>
         /// Lance les calculs des scores des équipes
@@ -101,6 +107,7 @@ public Repartition(JeuTest jeuTest)
         {
             foreach (Equipe equipe in this.equipes) equipe.Score(probleme);
         }
+        #endregion
 
         /// <summary>
         /// Crée une copie indépendante de la répartition (deep copy)
@@ -108,13 +115,13 @@ public Repartition(JeuTest jeuTest)
         public Repartition Cloner()
         {
             Repartition clone = new Repartition(this.jeuTest);
-         
+
             foreach (Equipe equipe in this.equipes)
             {
                 Equipe nouvelleEquipe = new Equipe();
                 foreach (Personnage membre in equipe.Membres)
                 {
-                    nouvelleEquipe.AjouterMembre(membre); 
+                    nouvelleEquipe.AjouterMembre(membre);
                 }
                 clone.AjouterEquipe(nouvelleEquipe);
             }
@@ -122,6 +129,17 @@ public Repartition(JeuTest jeuTest)
             return clone;
         }
 
-        #endregion
+        public void AjouterRepartition(Repartition nouvelleR)
+        {
+            foreach (var equipe in nouvelleR.Equipes)
+            {
+                Equipe nouvelleEquipe = new Equipe();
+                foreach (var membre in equipe.Membres)
+                {
+                    nouvelleEquipe.AjouterMembre(membre);
+                }
+                this.AjouterEquipe(nouvelleEquipe);
+            }
+        }
     }
 }

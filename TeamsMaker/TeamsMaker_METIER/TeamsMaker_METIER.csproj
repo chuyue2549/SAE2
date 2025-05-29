@@ -7,15 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="JeuxTest\Fichiers\100Personnages.jt" />
+    <None Remove="JeuxTest\Fichiers\10MillePersonnages.jt" />
     <None Remove="JeuxTest\Fichiers\CentPerso.jt" />
     <None Remove="JeuxTest\Fichiers\CentsPerso.jt" />
     <None Remove="JeuxTest\Fichiers\DixMillesPerso.jt" />
     <None Remove="JeuxTest\Fichiers\millePersonnage.jt" />
+    <None Remove="JeuxTest\Fichiers\MillePersonnages.jt" />
     <None Remove="JeuxTest\Fichiers\Test.jt" />
     <None Remove="JeuxTest\Fichiers\Vide.jt" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="JeuxTest\Fichiers\100Personnages.jt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JeuxTest\Fichiers\10MillePersonnages.jt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="JeuxTest\Fichiers\CentPerso.jt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -23,6 +32,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="JeuxTest\Fichiers\DixMillesPerso.jt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JeuxTest\Fichiers\MillePersonnages.jt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="JeuxTest\Fichiers\Test.jt">
